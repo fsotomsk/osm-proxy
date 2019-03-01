@@ -2,4 +2,4 @@ FROM nginx:alpine
 
 COPY nginx.conf /etc/nginx/nginx.conf
 
-VOLUME ["/data"]
+VOLUME ["/data/cache_osm"]
